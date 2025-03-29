@@ -10,7 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
     // Create a graphics scene
     scene = new QGraphicsScene(this);
     ui->graphicsView->setScene(scene);
-    scene->setSceneRect(0, 0, 800, 600); // Scene size
+    scene->setSceneRect(0, 0, 1000, 1000); // Scene size
 
     // Timer to add cars randomly
     spawnTimer = new QTimer(this);
@@ -27,7 +27,7 @@ void MainWindow::spawnCar() {
         id = QRandomGenerator::global()->bounded(1, 16); // Generates 1 to 15
     }
 
-    int direction = (QRandomGenerator::global()->bounded(2) == 0) ? 1 : -1; // Randomly left/right
+    int direction = QRandomGenerator::global()->bounded(0, 4); // Randomly left/right
 
     Vehicle *car = new Vehicle(priority, id, direction);
     scene->addItem(car);

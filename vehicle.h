@@ -18,7 +18,7 @@ private:
     int id;
     int direction; // 1 = right, -1 = left
     int speed;
-    QString getVehicleImage(bool priority); // Helper function to get image path
+    QString getVehicleImage() const; // Helper function to get image path
 };
 
 #endif // VEHICLE_H
