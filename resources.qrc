@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/vehicles">
+        <file>Images/vehicles/car1.png</file>
+        <file>Images/vehicles/priority3.png</file>
+        <file>Images/vehicles/priority2.png</file>
+        <file>Images/vehicles/priority1.png</file>
+        <file>Images/vehicles/car15.png</file>
+        <file>Images/vehicles/car14.png</file>
+        <file>Images/vehicles/car13.png</file>
+        <file>Images/vehicles/car12.png</file>
+        <file>Images/vehicles/car11.png</file>
+        <file>Images/vehicles/car10.png</file>
+        <file>Images/vehicles/car9.png</file>
+        <file>Images/vehicles/car8.png</file>
+        <file>Images/vehicles/car7.png</file>
+        <file>Images/vehicles/car6.png</file>
+        <file>Images/vehicles/car5.png</file>
+        <file>Images/vehicles/car4.png</file>
+        <file>Images/vehicles/car3.png</file>
+        <file>Images/vehicles/car2.png</file>
+    </qresource>
+</RCC>
